@@ -1,0 +1,35 @@
+# ============================================
+#  Rain Alert - files Git should NOT upload
+# ============================================
+
+# ---------- Compiled Java (created by run.bat) ----------
+out/
+*.class
+
+# ---------- Secrets (API keys, passwords) ----------
+.env
+*.env
+key.txt
+secrets.txt
+
+# ---------- Old version (not used any more) ----------
+index.html
+style.css
+script.js
+
+# ---------- IDE / editor settings ----------
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+
+# ---------- Operating system junk ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- Logs ----------
+*.log
